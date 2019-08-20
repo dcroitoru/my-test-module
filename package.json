@@ -1,0 +1,33 @@
+{
+  "name": "@dcroitoru/my-test-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "cross-env BABEL_ENV=production babel src --out-dir lib"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcroitoru/my-test-module.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcroitoru/my-test-module/issues"
+  },
+  "homepage": "https://github.com/dcroitoru/my-test-module#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.5.0",
+    "cross-env": "^5.2.0"
+  },
+  "dependencies": {}
+}
