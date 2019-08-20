@@ -4,7 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "cross-env BABEL_ENV=production babel src --out-dir dist"
+    "build": "cross-env BABEL_ENV=production babel src --out-dir dist",
+    "postinstall": "npm run build"
   },
   "files": [
     "dist",
