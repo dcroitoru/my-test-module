@@ -2,10 +2,9 @@
   "name": "@dcroitoru/my-test-module",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
-    "build": "cross-env BABEL_ENV=production babel src --out-dir dist",
-    "postinstall": "npm run build"
+    "build": "cross-env BABEL_ENV=production babel src --out-dir dist"
   },
   "files": [
     "dist",
